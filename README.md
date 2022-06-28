@@ -64,15 +64,7 @@
 
    🔔 **为了你的账号安全, 请不要使用 SSH 连接 Github Action**, `.config`配置以及固件定制等操作请务必在本地完成 🔔
 
-## 三、部署云端日志(可选)
 
-1. 下载本仓库中的 [Update_Logs.json](https://github.com/Hyy2001X/AutoBuild-Actions/releases/download/AutoUpdate/Update_Logs.json) 到本地 (如果有)
-
-2. 以 **JSON** 格式编辑本地的`Update_Logs.json`
-
-3. 手动上传修改后的`Update_Logs.json`到`Github Release`
-
-4. 在本地执行`autoupdate --fw-log`测试
 
 ## 使用一键更新固件脚本
 
