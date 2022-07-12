@@ -4,8 +4,8 @@
 
 Firmware_Diy_Core() {
 
-	Author=XiaoWanSM
-	Author_URL=http://wwang.pw:85/
+	Author=AUTO
+	Author_URL=AUTO
 	Default_Flag=AUTO
 	Default_IP="192.168.5.1"
 	Default_Title="Powered by AutoBuild-Actions"
@@ -15,7 +15,7 @@ Firmware_Diy_Core() {
 	Fw_Format=false
 	Regex_Skip="packages|buildinfo|sha256sums|manifest|kernel|rootfs|factory|itb|profile"
 
-	AutoBuild_Features=false
+	AutoBuild_Features=true
 }
 
 Firmware_Diy() {
